@@ -9,7 +9,7 @@ class CombinationSumTest {
 
   @Test
   void shouldReturnTwoListsForExampleOne() {
-    assertThat(CombinationSum.combinationSum(new int[]{2, 3, 6, 7}, 6))
+    assertThat(CombinationSum.combinationSum(new int[]{2, 3, 6, 7}, 7))
         .containsExactlyInAnyOrder(List.of(2, 2, 3), List.of(7));
   }
 
