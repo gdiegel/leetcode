@@ -37,14 +37,6 @@ public class UniquePaths {
       this.n = n;
     }
 
-    public int getM() {
-      return m;
-    }
-
-    public int getN() {
-      return n;
-    }
-
     @Override
     public boolean equals(Object o) {
       if (this == o) {
