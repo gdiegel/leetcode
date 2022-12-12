@@ -3,7 +3,7 @@ package com.example;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-class LongestPanlindromicSubStringTest {
+class LongestPalindromicSubStringTest {
 
   @Test
   void shouldReturnLongestPalindromicSubStringExample1() {
